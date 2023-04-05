@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  background-image: url(https://picsum.photos/1600/960);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff10 !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
+
+#logout {
+  cursor: pointer;
+}
